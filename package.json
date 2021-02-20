@@ -1,0 +1,30 @@
+{
+  "name": "node-homework",
+  "version": "1.0.0",
+  "description": "Yurii Konoval node.js homeworks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurikonoval/node-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurikonoval/node-homework/issues"
+  },
+  "homepage": "https://github.com/Yurikonoval/node-homework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16",
+    "yargs": "^16.2.0"
+  }
+}
